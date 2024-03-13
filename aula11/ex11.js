@@ -8,4 +8,4 @@ if (idade < 16) {
     console.log ('Voto Obrigatorio')
 }
 
-// Eu parei no 00h:14m:20s
+
