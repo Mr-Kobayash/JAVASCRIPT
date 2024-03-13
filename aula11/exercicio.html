@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercícios de JavaScript</title>
+
+
+</head>
+
+<body>
+    <h1>Buscar Nacionalidade</h1>
+
+    <input type="text" name="nasc" id="nasc">
+    <input type="button" value="Buscar" id="btn" onclick="buscador()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+
+        function buscador() {
+            var nacio = document.getElementById('nasc')
+            var res = document.getElementById('res')
+            var pais = 'EUA'
+            var valor = nasc.value
+            res.innerHTML = `Você é Brasileiro `
+            
+            if (pais == "Brasil") {
+                
+            }
+        }
+
+    </script>
+</body>
+
+</html>
