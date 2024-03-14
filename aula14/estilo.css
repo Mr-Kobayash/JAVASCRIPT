@@ -17,19 +17,6 @@ section {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
 }
 
-div {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-img {
-  display: block;
-  margin: auto;
-  width: 30vh;
-  height: 30vh;
-  border-radius: 150px;
-}
-
 footer {
   text-align: center;
   color: white;
