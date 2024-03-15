@@ -15,14 +15,16 @@ function verificar() {
         genero = "Homem";
         if (idade >= 0 && idade < 10) {
             //
-            img.setAttribute("src", "testedeima.png");
+            //img.setAttribute("src", "teste.png");
         } else if (idade < 20) {
-            //jovem
+          //jovem
+          //img.setAttribute("src", "jovemhomemm.png");
         } else if (idade < 50) {
             //adulto
-            img.setAttribute("src", "tamanho.png");
+           // img.setAttribute("src", "adultohomem.png");
         } else {
-            //idoso
+          //idoso
+         // img.setAttribute("src", "velhohomem.png");
         }
     } else if (fsex[1].checked) {
         genero = "mulher";
