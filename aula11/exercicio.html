@@ -24,12 +24,11 @@
         function buscador() {
             var nacio = document.getElementById('nasc')
             var res = document.getElementById('res')
-            var pais = 'EUA'
-            var valor = nasc.value
-            res.innerHTML = `Você é Brasileiro `
             
-            if (pais == "Brasil") {
-                
+            if (nacio.value == 'Brasil') {
+                res.innerHTML = 'Você é Brasileiro!'
+            } else {
+                res.innerHTML = `Você nasceu em um país chamado ${nacio.value} você é estrangeiro!`
             }
         }
 
